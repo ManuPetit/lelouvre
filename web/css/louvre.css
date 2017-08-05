@@ -1,0 +1,71 @@
+/*
+    Basics templates changes
+ */
+body {
+    padding-top: 50px;
+    background-color: #04081d;
+}
+
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+/*
+    Navbar
+ */
+.navbar-brand {
+    padding: 5px 15px;
+}
+/*
+    Jumbotron
+ */
+.jumbotron {
+    color: #ffffff;
+    background: url("../images/le-louvre-1200x800.jpg") no-repeat 0 -200px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.jumbotron .btn {
+    padding: 14px 24px;
+    font-size: 21px;
+}
+/*
+    Temporary expositions
+ */
+.presentation {
+    color: #ffffff;
+}
+.presentation .col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.presentation h1 {
+    text-transform: uppercase;
+}
+.presentation h2 {
+    font-weight: normal;
+}
+.presentation .col-lg-4 p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+/*
+    Footer
+ */
+.footer p {
+    color: #99CDD8;
+}
+/*
+    Small screen changes
+ */
+@media (max-width: 767px) {
+    .jumbotron {
+        background: url("../images/le-louvre-768x512.jpg") no-repeat 0 -50px;
+    }
+
+    ul.pull-right {
+        float: none !important;
+        text-align: center;
+    }
+}
